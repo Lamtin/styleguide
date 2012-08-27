@@ -453,14 +453,14 @@ $str = str_replace(LD.'foo'.RD, 'bar', $str);
  */
  ```
  ```
- /**
-  * Encodes string for use in XML
-  *
-  * @todo   security check
-  * @access public
-  * @param  string
-  * @return string
-  */
+/**
+ * Encodes string for use in XML
+ *
+ * @todo   security check
+ * @access public
+ * @param  string
+ * @return string
+ */
 function xml_encode($str)
  ```
 ### 5.3 行间注释
@@ -497,12 +497,12 @@ $parts = $this->foo($parts);
 ```
 
 ```
- /**
-  * 设置经度
-  *
-  * @access protected
-  * @return void
-  */
+/**
+ * 设置经度
+ *
+ * @access protected
+ * @return void
+ */
 protected function set_longitude()
 {
 	$this->data['longitude'] = $this->post['longitude'];
@@ -510,12 +510,12 @@ protected function set_longitude()
 
 // ------------------------------------------------------------------------
 
- /**
-  * 设置经度
-  *
-  * @access protected
-  * @return void
-  */
+/**
+ * 设置经度
+ *
+ * @access protected
+ * @return void
+ */
 protected function set_latitude()
 {
 	$this->data['latitude'] = $this->post['latitude'];
